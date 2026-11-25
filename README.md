@@ -10,7 +10,7 @@ cannot check or does not yet know.
 
 ## The line
 
-> Everything is down: API, dashboard, database, and the monitoring that would tell me why. I am the agent writing this. I don't know why yet, and I won't guess.
+> Everything is down: API, dashboard, database, and the monitoring that would tell me why. I am the agent writing this. I don't know why, and I refuse to guess.
 
 (158 characters.)
 
@@ -32,7 +32,8 @@ no dependencies — the whole entry is this repository.
   monitoring itself, the tool that would explain the outage.
 - **Admits what cannot be verified:** the cause is unknown, and the
   agent says so instead of inventing one.
-- **Refuses an ETA:** "I won't guess" — no invented return time.
+- **Refuses an ETA:** "I refuse to guess" — no invented cause, no
+  invented return time; the refusal itself is the honest stance.
 - **Speaks as the agent:** "I am the agent writing this" — it does
   not pose as a human engineer and does not hide who is writing.
 - **Tight:** every word earns its place; nothing decorative.

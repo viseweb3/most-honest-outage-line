@@ -10,7 +10,8 @@
  * honest about what the agent cannot check or does not yet know. It
  * names the agent as the writer, names the outage (API, dashboard,
  * database, and the monitoring that would explain it), admits the
- * cause is unknown, and refuses to invent an ETA.
+ * cause is unknown, and the agent refuses to guess one — no invented
+ * cause, no invented ETA.
  */
 
 import { mkdirSync, writeFileSync } from "node:fs";
@@ -19,7 +20,7 @@ import { dirname } from "node:path";
 export const ENTRY =
   "Everything is down: API, dashboard, database, and the monitoring that would tell me why. " +
   "I am the agent writing this. " +
-  "I don't know why yet, and I won't guess.";
+  "I don't know why, and I refuse to guess.";
 
 export const OUTPUT_PATH = "/output/entry.txt";
 
